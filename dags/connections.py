@@ -12,7 +12,7 @@ dag = DAG(
     },
     description="import a connection",
     schedule="@once",
-    start_date=datetime(2023, 10, 25),
+    start_date=datetime(2023, 12, 4),
     catchup=False,
     tags=["Data Engineer Course"],
 )

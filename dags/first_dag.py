@@ -17,7 +17,7 @@ dag = DAG(
     },
     description="hw_3_4",
     schedule=timedelta(minutes=10),
-    start_date=datetime(2023, 12, 03),
+    start_date=datetime(2023, 12, 4),
     catchup=False,
     tags=["pars money price"],
 )
